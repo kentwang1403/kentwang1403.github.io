@@ -10,3 +10,4 @@ title: What's Jekyll?
 It's an immensely useful tool and one we encourage you to use here with Hyde.
 
 Find out more by [visiting the project on GitHub](https://github.com/mojombo/jekyll).
+这是我的百度云主页[百度云](http://pan.baidu.com/disk/home#list/path=%2F&vmode=list)
