@@ -30,4 +30,3 @@ Have questions or suggestions? Feel free to [open an issue on GitHub](https://gi
 Thanks for reading!
 
 © {{ site.time | date: '%Y' }}. Created by kentwang.
-div.footer { text-align:center; font-family: serif; font-size: 13px; margin-bottom: 10px; } span.fa-color{ color: #268bd2; }
