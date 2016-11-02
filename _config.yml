@@ -11,7 +11,12 @@ tagline:          '老板，给我一杯时光，让我忘掉忧伤！'
 description:      '老板，给我一杯时光，让我忘掉忧伤！ Made by <a href="https://twitter.com/mdo" target="_blank">@kentwang</a>.'
 url:              https://kentwang1403.github.io/
 
+# Comment
+comment:
+    #disqus: 
+    duoshuo:  kentwang
 
+# About/contact
 author:
   name:           'Kent Wang'
   url:            https://kentwang1403.github.io/
