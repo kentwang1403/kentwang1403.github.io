@@ -1,9 +1,10 @@
 # Dependencies
-markdown:         redcarpet
-pygments:         true
+#markdown:         redcarpet
+#pygments:         true
 
 # Permalinks
-permalink:        pretty
+permalink:            pretty        #'/:title/'
+relative_permalinks:  false
 
 # Setup
 title:            一杯时光半生缘
@@ -22,7 +23,7 @@ author:
   url:            https://kentwang1403.github.io/
 
 
-paginate:         3
+paginate:         2
 
 github:
   repo:           https://github.com/poole/lanyon
