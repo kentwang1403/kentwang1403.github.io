@@ -12,16 +12,10 @@ layout: default
         {{ post.title }}
       </a>
     </h1>
-
     <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content }}
+{{ post.content ||split:'<!-- more -->' | first}}
+<h7><a href='{{post.url}}' title='阅读全文'>阅读全文</a></h7>    
     
-    <!--Jekyll "Read more" Link--> 
-     {% if post.excerpt != post.content %} 
-         <p><a href="{{ site.baseurl }}{{ post.url }}"><i class="fa fa-facebook-square" aria-hidden="true"></i>ree Download</a></p> 
-     {% endif %} 
-
   </div>
   {% endfor %}
 </div>
