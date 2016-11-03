@@ -16,6 +16,12 @@ layout: default
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
     {{ post.content }}
+    
+    <!--Jekyll "Read more" Link--> 
+     {% if post.excerpt != post.content %} 
+         <p><a href="{{ site.baseurl }}{{ post.url }}"><i class="fa fa-facebook-square" aria-hidden="true"></i>ree Download</a></p> 
+     {% endif %} 
+
   </div>
   {% endfor %}
 </div>
