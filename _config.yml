@@ -24,5 +24,8 @@ comment:
     #disqus: 
     duoshuo:  kentwang
 
+#摘要
+excerpt_separator:  '<!-- more -->
+
 #github:
   #repo:           https://github.com/poole/lanyon
