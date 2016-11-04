@@ -15,8 +15,13 @@
           <label for="sidebar-checkbox" class="sidebar-toggle"></label>
           
           <h3 class="masthead-title"> 
-            <a href="/" title="Welcome!">{{ site.title }}</a>
-              <small>{{ site.tagline }}</small>
+            <a title="Welcome!"href="{{ site.baseurl }}/"> 
+               <!--svg--> 
+              <i class="fa fa-github fa-lg" aria-hidden="true"></i> 
+              {{ site.title }}
+            </a>
+            
+              <small>&nbsp;{{ site.tagline }}</small>
           </h3>
         </div>
       </div>
