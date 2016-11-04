@@ -4,7 +4,7 @@ layout: default
 
 <div class="post">
   <h1 style="margin-bottom: 1rem;">{{ page.title }}</h1>
-  <span class="post-date"><i class="fa fa-calendar""></i> {{ page.date | date_to_string }}</span>
+  <span class="post-date"><i class="fa fa-calendar"></i> {{ page.date | date_to_string }}</span>
   {% include meta_info.html %}
   {{ content }}
 </div>
@@ -27,6 +27,10 @@ layout: default
   </ul>
 </div>
 
+
+<div id="backtop">
+   <a href="#">TOP</a>
+</div> 
 
 <!--Comments-->
 <div id="comments">
