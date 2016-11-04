@@ -18,6 +18,15 @@ author:
   name:           
   url:            https://kentwang1403.github.io/
 
+#Issues
+newest:             2016.11.05
+issue :
+       num_capital: Nov 5TH-Nov 11TH, 2016
+       num_small:   Nov 5th-Nov 11th 2016
+       num_related: 05 Nov 2016
+       size:        21.5
+       desc:        "America's best hope"
+
 paginate:         2
 
 # Comment
