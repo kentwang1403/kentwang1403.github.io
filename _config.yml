@@ -29,6 +29,8 @@ issue :
 
 paginate:         3
 
+safe:             false
+
 # Comment
 comment:
     #disqus: 
