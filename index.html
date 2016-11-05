@@ -4,6 +4,15 @@ layout: default
 {% include imgtop.html %}
 <hr style="margin-top: -1rem; border-top: 1px solid #e1e1e1;" />
 
+<section>
+<h4>Recent Posts</h4>
+<ul id="recent_posts">{% for rpost in site.posts limit: 15 %}
+<li class="post">
+<a href=""></a>
+</li>{% endfor %}
+</ul>
+</section>
+
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
