@@ -4,6 +4,16 @@ layout: default
 {% include imgtop.html %}
 <hr style="margin-top: -1rem; border-top: 1px solid #e1e1e1;" />
 
+<h4>Category</h4>
+<ul>
+    //这里使用了 jekyll 语法，会被编译，所以加多个"\"
+    {\% for category in site.categories %\}
+    <li><a href="/categories/{\{ category | first }\}/" title="view all
+posts">{\{ category | first }\} {\{ category | last | size }\}</a>
+    </li>
+    {\% endfor %\}
+</ul>
+
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
@@ -12,16 +22,7 @@ layout: default
         {{ post.title }}
       </a>
     </h1>
-     <div class="c9">
-	    Categories：
-		    { %for cg in post.categories % }
-		     <a href="/categories.html#-ref"></a>
-		      { %if forloop.index < forloop.length % }
-		       ,
-		      { %endif%}
-		      { %endfor%}
-     </div>
-       
+      
     <span class="post-date">{{ post.date | date_to_string }}</span>
     {{ post.content ||split:'<!-- more -->' | first}}
    <h7><a href='{{post.url}}' title='阅读全文'>阅读全文</a></h7>    
