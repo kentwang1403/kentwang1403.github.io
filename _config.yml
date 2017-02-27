@@ -27,7 +27,7 @@ issue :
        size:        21.5
        desc:        "America's best hope"
 
-paginate:         3
+paginate:         5
 
 safe:             false
 
