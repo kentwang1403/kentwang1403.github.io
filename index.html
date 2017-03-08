@@ -12,7 +12,6 @@ layout: default
         {{ post.title }}
       </a>
     </h1>
-    <i class="fa fa-calendar" aria-hidden="true"></i> 
     <span class="post-date">{{ post.date | date_to_string }}</span>
     {{ post.content ||split:'<!-- more -->' | first}}
    <h7><a href='{{post.url}}' title='阅读全文'>阅读全文</a></h7>    
