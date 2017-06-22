@@ -1,7 +1,6 @@
 ---
-layout: page
+layout: post
 title: About
-permalink:/about/
 ---
 <!--siderbar调用这个tittle: About-->
 <style>
