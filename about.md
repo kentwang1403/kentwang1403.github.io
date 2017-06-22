@@ -1,16 +1,7 @@
 ---
-layout: post
+layout: pages
 title: About
 ---
-<!--siderbar调用这个tittle: About-->
-<style>
-	.page{
-    margin-top: 3em;  /*About title*/
-}
-  .page-title{
-    margin-bottom: .5em;  /*About title*/    
-  }
-</style>
 
 Hey there! 
 
