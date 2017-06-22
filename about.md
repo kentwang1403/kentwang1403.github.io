@@ -1,11 +1,21 @@
 ---
 layout: page
 title: About
+permalink:/about/
 ---
+<!--siderbar调用这个tittle: About-->
+<style>
+	.page{
+    margin-top: 3em;  /*About title*/
+}
+  .page-title{
+    margin-bottom: .5em;  /*About title*/    
+  }
+</style>
 
-<p class="message">
-  Hey there! This page is <span class="fa-color"><i class="fa fa-linkedin-square" aria-hidden="true"></i></span> cluded as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+Hey there! 
+
+This page is <span class="fa-color"><i class="fa fa-linkedin-square" aria-hidden="true"></i></span> cluded as an example. Feel free to customize it for your own use upon downloading. Carry on!
 
 In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
 
