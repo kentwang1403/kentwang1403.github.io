@@ -8,7 +8,7 @@ relative_permalinks:  false
 
 # Setup
 title:            一杯时光半生缘
-tagline:          '老板，给我一杯时光，让我忘掉忧伤！'
+tagline:          '老板'
 description:      '老板，给我一杯时光，让我忘掉忧伤！ Made by <a href="https://twitter.com/mdo" target="_blank">@kentwang</a>.'
 url:              https://kentwang1403.github.io/
 baseurl:          ''
