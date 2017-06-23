@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<style type="text/css">
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	color: #268BD2;
+}
+a:active {
+	text-decoration: none;
+}
+</style>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include sidebar.html %}
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+          
+          <h3 class="masthead-title"> 
+            <a title="Welcome!"href="{{ site.baseurl }}/"> 
+              {{ site.title }}
+            </a>
+            
+              <small>&nbsp;{{ site.tagline }}</small>
+              
+               <div class="headicons">
+                 <small><a href="/about/" title="About"><i class="fa fa-paper-plane" aria-hidden="true"></i></a></small>
+                 <small><a href="/books/" title="Books"><i class="fa fa-book" aria-hidden="true"></i></a></small>
+                 <small><a href="/archive/" title="Codes" target="_blank"><i class="fa fa-code" aria-hidden="true"></i></a></small>
+                 <small><a href="http://weibo.com/u/6035048806" rel="me" title="Weibo" target="_blank"><i class="fa fa-weibo" aria-hidden="true"></i></a></small>
+              </div>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include totop.html %}
+  </body>
+</html>
