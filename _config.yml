@@ -27,14 +27,10 @@ issue :
        size:        21.5
        desc:        "America's best hope"
 
-paginate:         5
+paginate:         4
 
 safe:             false
 
-# Comment
-comment:
-    #disqus: 
-    duoshuo:  kentwang
 
 #github:
   #repo:           https://github.com/poole/lanyon
