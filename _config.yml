@@ -31,6 +31,8 @@ paginate:         4
 
 safe:             false
 
+intensedebate_comments: true
+
 
 #github:
   #repo:           https://github.com/poole/lanyon
