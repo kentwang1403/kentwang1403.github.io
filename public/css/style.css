@@ -840,12 +840,12 @@ a.pagination-step, span.pagination-step {
     fill: currentColor
 }
 </svg>*/
-.header-logo-invertocat:hover {
+.header-logo:hover {
     color: #4078c0;
     text-decoration: none
 }
 /* Title hover */
-.header-logo-invertocat:hover, h1.post-title:hover {
+.header-logo:hover, h1.post-title:hover {
     color: #268bd2;
 }
 
