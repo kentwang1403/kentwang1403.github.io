@@ -848,6 +848,15 @@ a.pagination-step, span.pagination-step {
     color: #268bd2;
 }
 
+/* 友情链接 */
+#youqing{
+   background-color:black;
+   
+}
+.youqing a{
+  font-size=10px;
+  font-color=white;
+}
 
 
 
