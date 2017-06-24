@@ -213,15 +213,6 @@ tbody tr:nth-child(odd) td, tbody tr:nth-child(odd) th {
     letter-spacing: 0;
 }
 
-/* 新增 */
-.headericons{
-  display:inline-block;
-  margin-right: 10px;
-  margin-lift: 0px
-}
-
-
-
 .pagination {
     overflow: hidden;
     margin-left: -1rem;
