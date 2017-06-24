@@ -30,5 +30,8 @@ layout: default
 <!--share-->
 
 <!--Comments-->
-{% include intensedebate-comments.html %} 
+{% if site.intensedebate_comments %}
+	{% include intensedebate-comments.html %}
+{% endif %}
+
 <!--footer-->
