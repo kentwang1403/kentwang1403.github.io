@@ -3,8 +3,8 @@ layout: post
 title: 《文艺复兴的故事（套装全六册）》
 category: books
 ---
-<div class="meseage" font-color:#268bd2>
-豆瓣评分：8.9分
+<div class="message" >
+豆瓣评分：<code><b>8.9分</b></code>
 
 </div>
 
