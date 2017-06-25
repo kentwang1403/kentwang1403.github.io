@@ -213,6 +213,17 @@ tbody tr:nth-child(odd) td, tbody tr:nth-child(odd) th {
     letter-spacing: 0;
 }
 
+.headicons {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+
+.masthead-title .headicons a {
+  color: #505050; 
+  text-decoration: none;
+}
+
 
 /*
  * Pagination
