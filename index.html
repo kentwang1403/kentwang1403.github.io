@@ -25,7 +25,7 @@ layout: default
         {{ post.title }}
       </a>
     </h1>
-    <span class="post-date"> <i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date_to_string }} {{ post.category }}</span>
+    <span class="post-date"> <i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date_to_string }}</span>
     {{ post.content ||split:'<!-- more -->' | first}}
    <h7><a href='{{post.url}}' title='阅读全文'>Read M<i class="fa fa-github" aria-hidden="true"></i>re </a></h7>    
     
