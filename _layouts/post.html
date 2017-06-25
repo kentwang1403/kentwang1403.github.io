@@ -5,6 +5,7 @@ layout: default
 <div class="post">
   <h1 style="margin-bottom: 1rem;">{{ page.title }}</h1>
   <span class="post-date"> <i class="fa fa-calendar" aria-hidden="true"></i> {{ page.date | date_to_string }}</span>
+  <div id="category">{{ post.category }}</div>
   {% include meta_info.html %}
   {{ content }}
 </div>
