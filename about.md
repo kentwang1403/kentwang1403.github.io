@@ -29,4 +29,4 @@ Have questions or suggestions? Feel free to [open an issue on GitHub](https://gi
 
 Thanks for reading!
 
-© {{ site.time | date: '%Y' }}. Created by kentwang.
+© {{ site.time | date: '%Y' }}. Created <i class="fa fa-bold" aria-hidden="true"></i>y kentwang.
