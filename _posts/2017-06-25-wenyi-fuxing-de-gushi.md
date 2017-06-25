@@ -1,10 +1,12 @@
 ---
 layout: post
-title: 《文艺复兴的故事（套装全六册）》[日] 盐野七生（作者）
+title: 《文艺复兴的故事（套装全六册）》
 category: books
 ---
 <div class="meseage">
 豆瓣评分：8.9分
+
+</div>
 
 <div style="position: relative; max-width: 400px; 
     margin: 0 auto;">
