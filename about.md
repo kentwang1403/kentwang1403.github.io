@@ -5,10 +5,10 @@ permalink: /about/
 ---
 
 <style>
-  .page{
+  .default{
     margin-top: 3em;  /*About title*/
 }
-  .page-title{
+  .default-title{
     margin-bottom: .5em;  /*About title*/    
   }
 </style>
@@ -46,18 +46,5 @@ body {
 span.fa-color{
      color: #268bd2;	
  }
-.footer{
-  text-align:center;
-  font-size: 12.5px;
-  margin-bottom: 12px; 
-  margin-top: 65px;
-  color: #8A9599;
-  }
-.fa.fa-heart{
-  color:#FF4D4D;
-}
-.fa.fa-heart:hover {
-  color: #D93636
-}
 </style>
 
